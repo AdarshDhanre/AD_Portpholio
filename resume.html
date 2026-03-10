@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260224.1">
+  <script src="assets/js/script.js?v=20260224.1" defer></script>
+</head>
+<body data-page="resume">
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html" aria-label="Go to homepage">
+        <span class="brand-mark">APD</span>
+        <span class="brand-text">Adarsh Prashant Dhanre</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html#home">Home</a>
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="resume.pdf">Resume</a>
+        <a class="nav-link" href="index.html#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark theme">
+        <span id="theme-toggle-icon">Moon</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container section-head reveal">
+        <p class="eyebrow">Resume</p>
+        <h1>Professional Resume</h1>
+        <p>View in browser or download directly as PDF.</p>
+        <div class="hero-actions" style="margin-top:1rem;">
+          <a class="btn btn-primary" href="resume.pdf" target="_blank" rel="noreferrer">View Resume PDF</a>
+          <a class="btn btn-secondary" href="resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" style="padding-top:0;">
+      <div class="container reveal">
+        <div class="resume-frame-wrap">
+          <iframe
+            class="resume-frame"
+            src="resume.pdf"
+            title=""
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>(c) 2026 Adarsh Prashant Dhanre | AI & Machine Learning Portfolio.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
