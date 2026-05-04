@@ -1,0 +1,68 @@
+ 
+ 
+ 
++91 7741007812 
+ADARSH DHANRE 
+| adarshdhanre70@gmai.com | 
+ 
+ 
+Adarsh Dhanre 
+EDUCATION  
+G H RAISONI COLLEGE OF ENGINEERING AND MANAGEMENT (GHRCEMN) 
+Bachelors in Artificial Intelligence 
+NAGPUR, INDIA 
+AUG 2024 - JUNE 2028 
+ 
+ 
+SKILLS  SUMMARY  
+PROGRAMMING & QUERY LANGUAGES: Python, SQL, java(basic). 
+DATA ANALYTICS & VISUALIZATION: Matplotlib, Pandas, Numpy. 
+DATABASES: MySQL, CSV-based storage 
+SOFT SKILLS: Leadership & Team Management, Critical Thinking, Effective Communication, Process Optimization 
+ 
+ 
+ 
+SMS SPAM DETECTION SYSTEM 
+PROJECTS   
+SEP 2025 - DEC 2025 
+Developed a Python-MySQL SMS spam detection system Performed data preprocessing, text cleaning, and feature extraction 
+using NLP techniques such as tokenization and TF-IDF. Integrated the system with a MySQL database to store SMS data, 
+prediction results, and user inputs. 
+ 
+STUDENT PERFORMANCE SYSTEM JAN 2026 – MAR 2026 
+Built an interactive dashboard to analyze academic performance, attendance, & calculate CGPA . Automated trend analysis 
+and subject-wise insights to help mentors track progress and identify students at risk & give the proper roadmap for 
+engineering. 
+ 
+FAKE PRESCRIPTION DETECTION SYSTEM 
+ 
+ MAR 2026 – in progress
+Developed a machine learning–based system to detect fraudulent medical prescriptions by analyzing prescription data      
+patterns, improving verification and healthcare security. Using pandas, Tensorflow, Opencv, Keras. 
+ 
+ 
+CERTIFICATIONS  
+ CERTIFICATE OF TRAINING: IBM skills  
+Build Your Own Chatbot IBM Skills Build 
+ 
+ Software Engineering Job Simulation:  Forage 
+ 
+ Deloitte Australia - Data Analytics Job Simulation: Forage 
+ 
+ 
+ 
+ 
+Academic Achievements 
+ 
+ Achieved 9.38 CGPA in Semester 1 and 9.33 CGPA in Semester 2 (Electrical Engineering). 
+ Branch changed to Artificial Intelligence from Semester 3 and maintained 9.30 CGPA. 
+ 
+ 
+ 
+ 
+Extra-Curricular Activities 
+ 
+ Playing Cricket 
+ Listening to music and poetry 
+ Writing creative poetry 
+ 
