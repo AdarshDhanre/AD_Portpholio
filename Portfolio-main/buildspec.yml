@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No dependencies to install"
+  build:
+    commands:
+      - echo "No build step for static site"
+  post_build:
+    commands:
+      - echo "Build complete"
+
+artifacts:
+  files:
+    - '**/*'
