@@ -53,13 +53,16 @@ Welcome to my personal portfolio repository! This website showcases my projects 
 
 ---
 
-## 💼 Work Experience
+## 💼 Internship / Experience
 
 #### **Data Analytics Intern** — *Edunet Foundation (AICTE & Vodafone Idea Foundation / VOIS for Tech)*
-📅 `Aug 2026 – Sept 2026`
+📅 `10th Aug 2026 – 10th Sept 2026` \| `ID: INTERNSHIP_17830691666a4779eecfe8a`
 - Selected for prestigious government-backed AICTE internship on Data Analytics.
-- Analyzed real-world domain datasets across **Agriculture, HR, and Business Operations** using Python and visualization libraries.
-- Built automated insights dashboards and analytical reports to drive data-backed decision-making.
+- Analyzed real-world domain datasets across **Agriculture, HR Attrition, and Business Operations** using Python, Pandas, and NumPy.
+- Built automated insights dashboards and qualitative reports leveraging LLM-assisted analysis.
+- 📜 **Verified Credentials:**
+  - [Internship Completion Certificate (PDF)](assets/docs/Edunet_AICTE_Internship_Certificate.pdf)
+  - [AICTE Internship Offer Letter (PDF)](assets/docs/Edunet_AICTE_Internship_Offer_Letter.pdf)
 
 ---
 
@@ -77,17 +80,21 @@ Welcome to my personal portfolio repository! This website showcases my projects 
 AD_Portpholio/
 ├── Adarsh_Dhanre_Resume.pdf    # Latest 2026 2-Page Resume PDF
 ├── resume_text.txt             # Plain text version of updated resume
-├── index.html                  # Main Portfolio homepage
+├── index.html                  # Main Portfolio homepage (with Internship & Credentials section)
 ├── projects.html               # Dedicated Projects showcase page
 ├── resume.html                 # Embedded PDF resume viewer & downloader
 ├── assets/                     # Styles, scripts, and media assets
 │   ├── css/
-│   │   ├── style.css           # Core styling & design system
+│   │   ├── style.css           # Core styling & credential card styles
 │   │   └── project.css         # Project showcase styles
+│   ├── docs/                   # Official verified PDF credentials
+│   │   ├── Edunet_AICTE_Internship_Certificate.pdf
+│   │   └── Edunet_AICTE_Internship_Offer_Letter.pdf
 │   ├── js/
 │   │   ├── script.js           # Theme toggle, navigation & interactions
 │   │   └── project.js          # Project filters & dynamic behaviors
 │   └── images/
+│       ├── certificates/       # Preview images of Certificate & Offer Letter
 │       ├── profile img/        # Profile photos
 │       └── project img/        # Project screenshots
 └── Portfolio-main/             # Alternative interactive portfolio theme
