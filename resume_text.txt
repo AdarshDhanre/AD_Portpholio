@@ -1,68 +1,60 @@
- 
- 
- 
-+91 7741007812 
-ADARSH DHANRE 
-| adarshdhanre70@gmai.com | 
- 
- 
-Adarsh Dhanre 
-EDUCATION  
-G H RAISONI COLLEGE OF ENGINEERING AND MANAGEMENT (GHRCEMN) 
-Bachelors in Artificial Intelligence 
-NAGPUR, INDIA 
-AUG 2024 - JUNE 2028 
- 
- 
-SKILLS  SUMMARY  
-PROGRAMMING & QUERY LANGUAGES: Python, SQL, java(basic). 
-DATA ANALYTICS & VISUALIZATION: Matplotlib, Pandas, Numpy. 
-DATABASES: MySQL, CSV-based storage 
-SOFT SKILLS: Leadership & Team Management, Critical Thinking, Effective Communication, Process Optimization 
- 
- 
- 
-SMS SPAM DETECTION SYSTEM 
-PROJECTS   
-SEP 2025 - DEC 2025 
-Developed a Python-MySQL SMS spam detection system Performed data preprocessing, text cleaning, and feature extraction 
-using NLP techniques such as tokenization and TF-IDF. Integrated the system with a MySQL database to store SMS data, 
-prediction results, and user inputs. 
- 
-STUDENT PERFORMANCE SYSTEM JAN 2026 – MAR 2026 
-Built an interactive dashboard to analyze academic performance, attendance, & calculate CGPA . Automated trend analysis 
-and subject-wise insights to help mentors track progress and identify students at risk & give the proper roadmap for 
-engineering. 
- 
-FAKE PRESCRIPTION DETECTION SYSTEM 
- 
- MAR 2026 – in progress
-Developed a machine learning–based system to detect fraudulent medical prescriptions by analyzing prescription data      
-patterns, improving verification and healthcare security. Using pandas, Tensorflow, Opencv, Keras. 
- 
- 
-CERTIFICATIONS  
- CERTIFICATE OF TRAINING: IBM skills  
-Build Your Own Chatbot IBM Skills Build 
- 
- Software Engineering Job Simulation:  Forage 
- 
- Deloitte Australia - Data Analytics Job Simulation: Forage 
- 
- 
- 
- 
-Academic Achievements 
- 
- Achieved 9.38 CGPA in Semester 1 and 9.33 CGPA in Semester 2 (Electrical Engineering). 
- Branch changed to Artificial Intelligence from Semester 3 and maintained 9.30 CGPA. 
- 
- 
- 
- 
-Extra-Curricular Activities 
- 
- Playing Cricket 
- Listening to music and poetry 
- Writing creative poetry 
- 
+ADARSH DHANRE
+Data Analyst
+Nagpur, India | +91 7741007812 | adarshdhanre70@gmail.com
+LinkedIn: www.linkedin.com/in/adarsh-dhanre-11b23129b
+
+==================================================
+PROFESSIONAL SUMMARY
+==================================================
+Data Analyst and B.Tech Artificial Intelligence scholar with hands-on experience in AI/ML model deployment, full-stack database architectures, and real-world domain analytics. Proven track record through an AICTE-Edunet Data Analytics Internship, performing HR, Agriculture, and Operations data analysis using Python and LLM-assisted workflows. Passionate about transforming complex raw data into strategic business insights.
+
+==================================================
+WORK EXPERIENCE
+==================================================
+Data Analytics Intern — Edunet Foundation (AICTE & Vodafone Idea Foundation / VOIS for Tech)
+Aug 2026 – Sept 2026
+• Selected for a prestigious government-backed AICTE internship on Data Analytics via Edunet Foundation & VOIS for Tech program.
+• Analyzed real-world domain datasets across Agriculture, HR, and Business Operations using Python, Data Visualization libraries, and LLM assistance.
+• Prepared comprehensive analytical reports and automated insights dashboards to drive data-backed decision-making.
+
+==================================================
+TECHNICAL SKILLS
+==================================================
+• Programming & Analytics: Python, SQL, Pandas, NumPy, Exploratory Data Analysis (EDA), Data Visualization
+• AI, ML & LLM Integration: Gemini 2.5 Flash OCR, LLM-Assisted Analysis, TensorFlow, Keras, OpenCV
+• Databases & Web Frameworks: Supabase PostgreSQL, MySQL, MongoDB, Next.js, Flask, Java (basic)
+• Automation & Tools: n8n Workflows, Razorpay Gateway API, VOIS for Tech LMS, Git/GitHub, VS Code
+• Soft Skills: Leadership & Team Management, Critical Thinking, Strategic Problem Solving, Process Optimization
+
+==================================================
+PROJECTS
+==================================================
+Student Fee Defaulter & Automated Management System | Sep 2026 – Present
+• Engineered a full-stack fee management platform using Next.js 14, Java Spring Boot, and Python Flask with a centralized Supabase PostgreSQL database to track dues and student records.
+• Integrated Google Gemini 2.5 Flash OCR to automate offline bank challan verification, extracting transaction IDs (UTR) and amounts with high accuracy.
+• Automated payment workflows via Razorpay gateway, real-time Google Sheets reconciliation, and automated email alerts using n8n and Brevo SMTP.
+
+SMS Spam Detection System | Sep 2025 – Dec 2025
+• Developed a Python-MySQL SMS spam detection system utilizing NLP techniques such as tokenization and TF-IDF for text cleaning and feature extraction.
+
+Student Performance & Analytics System | Jan 2026 – Mar 2026
+• Built an interactive dashboard to analyze student academic performance, attendance records, and compute CGPA dynamically, helping mentors track progress.
+
+Fake Prescription Detection System | Mar 2026 – In Progress
+• Developing a machine learning–based verification system utilizing Pandas, TensorFlow, OpenCV, and Keras to detect fraudulent medical prescriptions.
+
+==================================================
+EDUCATION
+==================================================
+G. H. Raisoni College of Engineering and Management (GHRCEMN), Nagpur
+Bachelor of Technology (B.Tech) in Artificial Intelligence | Aug 2024 – June 2028
+• Academic Highlights: Achieved 9.38 CGPA in Sem 1 and 9.33 CGPA in Sem 2 (Electrical Engineering). Branch changed to Artificial Intelligence from Sem 3, maintaining a strong 9.30 CGPA.
+• Higher Secondary Certificate (HSC - 12th): Passing Year: 2024 | Percentage: 74.33%
+• Secondary School Certificate (SSC - 10th): Passing Year: 2022 | Percentage: 91.20%
+
+==================================================
+CERTIFICATIONS & KEY HIGHLIGHTS
+==================================================
+• AICTE & Edunet Foundation: Data Analytics Internship Certification (VOIS for Tech Program)
+• IBM SkillsBuild: Build Your Own Chatbot – Certificate of Training
+• Forage Job Simulations: Deloitte Australia (Data Analytics) & Software Engineering
