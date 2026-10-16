@@ -350,9 +350,16 @@ main {
 }
 
 .avatar-box {
-  background-color: #fbf783;
-  /* background: var(--bg-gradient-onyx); */
+  background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-1);
+}
+
+.avatar-box img {
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
 }
 
 .info-content .name {
