@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarsh-dhanre-11b23129b)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AdarshDhanre)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adarshdhanre70@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-3F7BFF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adarshdhanre.github.io/AD_Portpholio/)
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-3F7BFF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adarshdhanre.github.io/)
 
 <p align="center">
   <b>Transforming complex raw data into strategic business insights through predictive modeling, automation, and AI/ML workflows.</b>
