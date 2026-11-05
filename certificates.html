@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Certificates | Adarsh Dhanre Portfolio</title>
   <meta name="author" content="Adarsh Prashant Dhanre">
   <meta name="description" content="Verified certificates and credentials of Adarsh Dhanre (Adarsh Prashant Dhanre) — AICTE, IBM SkillsBuild, Deloitte, and more.">
@@ -18,339 +17,223 @@
   <meta property="og:description" content="Verified certificates and credentials of Adarsh Prashant Dhanre.">
   <meta property="og:url" content="https://adarshdhanre.github.io/AD_Portpholio/certificates.html">
 
-  <link rel="stylesheet" href="assets/css/style.css?v=20260224.1">
+  <!-- Typography & Stylesheets -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
-  <script src="assets/js/script.js?v=20260224.1" defer></script>
-
-  <style>
-    .certificates-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 1.25rem;
-      margin-top: 2rem;
-    }
-
-    .certificate-card {
-      background: linear-gradient(165deg, var(--surface) 0%, var(--surface-soft) 100%);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--shadow-soft);
-      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-    }
-
-    .certificate-card::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      height: 1px;
-      background: linear-gradient(90deg, transparent 0%, color-mix(in srgb, var(--accent) 70%, transparent) 50%, transparent 100%);
-      opacity: 0.9;
-    }
-
-    .certificate-card:hover {
-      transform: translateY(-5px);
-      border-color: color-mix(in srgb, var(--accent) 60%, var(--border));
-      box-shadow: var(--shadow);
-    }
-
-    .certificate-preview {
-      width: 100%;
-      height: 240px;
-      overflow: hidden;
-      background: #090e1a;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-    }
-
-    .certificate-preview iframe {
-      width: 100%;
-      height: 100%;
-      border: 0;
-      pointer-events: none;
-    }
-
-    .certificate-preview .pdf-fallback {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-      color: var(--text-muted);
-      font-size: 0.9rem;
-    }
-
-    .pdf-fallback .pdf-icon {
-      font-size: 3rem;
-      line-height: 1;
-    }
-
-    .certificate-info {
-      padding: 1.25rem;
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-    }
-
-    .certificate-info .cert-badge {
-      margin-bottom: 0.55rem;
-    }
-
-    .certificate-info h3 {
-      font-size: 1.1rem;
-      font-weight: 700;
-      margin-bottom: 0.4rem;
-      color: var(--text);
-      font-family: var(--font-display);
-      line-height: 1.3;
-    }
-
-    .certificate-info p {
-      font-size: 0.88rem;
-      color: var(--text-muted);
-      line-height: 1.55;
-      margin-bottom: 1rem;
-      flex: 1;
-    }
-
-    .certificate-actions {
-      display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      margin-top: auto;
-    }
-
-    .cert-count-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--accent);
-      background: color-mix(in srgb, var(--accent) 10%, transparent);
-      border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
-      padding: 0.4rem 0.85rem;
-      border-radius: 999px;
-      margin-top: 0.75rem;
-    }
-
-    @media (max-width: 760px) {
-      .certificates-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/style.css?v=20261105.1">
+  <script src="assets/js/script.js?v=20261105.1" defer></script>
 </head>
+<body data-page="certificates">
 
-<body>
+  <!-- ==============================================================================
+       HEADER & NAVIGATION
+       ============================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html" aria-label="Go to homepage">
+        <span class="brand-mark">APD</span>
+        <span class="brand-text">: Adarsh Prashant Dhanre</span>
+      </a>
 
-<header class="site-header">
-  <div class="container nav-container">
-    <a class="brand" href="index.html" aria-label="Go to homepage">
-      <span class="brand-mark"> APD </span>
-      <span class="brand-text">: Adarsh Prashant Dhanre</span>
-    </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html#home">Home</a>
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="index.html#experience">Internship / Experience</a>
+        <a class="nav-link" href="index.html#skills">Skills</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link active" href="certificates.html">Certificates</a>
+        <a class="nav-link" href="resume.html">Resume</a>
+        <a class="nav-link" href="index.html#contact">Contact</a>
+      </nav>
 
-    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
-      <a class="nav-link" href="index.html#home">Home</a>
-      <a class="nav-link" href="index.html#about">About</a>
-      <a class="nav-link" href="index.html#experience">Internship / Experience</a>
-      <a class="nav-link" href="index.html#skills">Skills</a>
-      <a class="nav-link" href="projects.html">Projects</a>
-      <a class="nav-link active" href="certificates.html">Certificates</a>
-      <a class="nav-link" href="resume.html">Resume</a>
-      <a class="nav-link" href="index.html#contact">Contact</a>
-    </nav>
-
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark theme">
-      <span id="theme-toggle-icon">Moon</span>
-    </button>
-  </div>
-</header>
-
-<main>
-
-  <section class="section project-hero">
-    <div class="container section-head reveal">
-      <p class="eyebrow">Verified Credentials</p>
-      <h1>Certificates & Achievements</h1>
-      <p>Industry-recognized certifications and credentials that validate my skills in Data Analytics, AI/ML, and Software Development.</p>
-      <span class="cert-count-badge">📜 7 Certificates</span>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark theme">
+        <span id="theme-toggle-icon">Moon</span>
+      </button>
     </div>
-  </section>
+  </header>
 
-  <section class="section">
-    <div class="container">
-
-      <div class="certificates-grid">
-
-        <!-- Certificate 1: AICTE Internship Certificate -->
-        <article class="certificate-card reveal">
-          <div class="certificate-preview">
-            <div class="pdf-fallback">
-              <span class="pdf-icon">📄</span>
-              <span>AICTE Internship Certificate</span>
-            </div>
-          </div>
-          <div class="certificate-info">
-            <span class="cert-badge">Verified AICTE Credential</span>
-            <h3>Data Analytics Internship — Completion Certificate</h3>
-            <p>Awarded by <strong>AICTE, Edunet Foundation & Vodafone Idea Foundation</strong> for successfully completing the Data Analytics Virtual Internship under the VOIS for Tech Program.</p>
-            <div class="certificate-actions">
-              <a class="btn btn-primary" href="assets/docs/Edunet_AICTE_Internship_Certificate.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
-              <a class="btn btn-secondary" href="assets/docs/Edunet_AICTE_Internship_Certificate.pdf" download="Adarsh_Dhanre_AICTE_Internship_Certificate.pdf">Download</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Certificate 3: IBM SkillsBuild Chatbot -->
-        <article class="certificate-card reveal">
-          <div class="certificate-preview">
-            <div class="pdf-fallback">
-              <span class="pdf-icon">📄</span>
-              <span>IBM SkillsBuild Certificate</span>
-            </div>
-          </div>
-          <div class="certificate-info">
-            <span class="cert-badge">IBM SkillsBuild</span>
-            <h3>Build Your Own Chatbot — IBM SkillsBuild</h3>
-            <p>Certificate of completion from <strong>IBM SkillsBuild</strong> for the "Build Your Own Chatbot" course, covering conversational AI fundamentals and Watson Assistant.</p>
-            <div class="certificate-actions">
-              <a class="btn btn-primary" href="assets/docs/IBM_SkillsBuild_Chatbot_Certificate.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
-              <a class="btn btn-secondary" href="assets/docs/IBM_SkillsBuild_Chatbot_Certificate.pdf" download="Adarsh_Dhanre_IBM_Chatbot_Certificate.pdf">Download</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Certificate 4: Deloitte Data Analytics -->
-        <article class="certificate-card reveal">
-          <div class="certificate-preview">
-            <div class="pdf-fallback">
-              <span class="pdf-icon">📄</span>
-              <span>Deloitte Certificate</span>
-            </div>
-          </div>
-          <div class="certificate-info">
-            <span class="cert-badge">Deloitte Australia</span>
-            <h3>Data Analytics & Visualization — Deloitte (Forage)</h3>
-            <p>Virtual experience program certificate from <strong>Deloitte Australia</strong> on the Forage platform, covering data analytics, visualization, and business intelligence techniques.</p>
-            <div class="certificate-actions">
-              <a class="btn btn-primary" href="assets/docs/Deloitte_Data_Analytics_Certificate.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
-              <a class="btn btn-secondary" href="assets/docs/Deloitte_Data_Analytics_Certificate.pdf" download="Adarsh_Dhanre_Deloitte_Certificate.pdf">Download</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Certificate 5: Completion Certificate 1 -->
-        <article class="certificate-card reveal">
-          <div class="certificate-preview">
-            <div class="pdf-fallback">
-              <span class="pdf-icon">📄</span>
-              <span>Completion Certificate</span>
-            </div>
-          </div>
-          <div class="certificate-info">
-            <span class="cert-badge">Online Course</span>
-            <h3>Course Completion Certificate</h3>
-            <p>Certificate of completion for an online course covering technical skills in data science and programming.</p>
-            <div class="certificate-actions">
-              <a class="btn btn-primary" href="assets/docs/Completion_Certificate_1.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
-              <a class="btn btn-secondary" href="assets/docs/Completion_Certificate_1.pdf" download="Adarsh_Dhanre_Completion_Certificate_1.pdf">Download</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Certificate 6: Completion Certificate 2 -->
-        <article class="certificate-card reveal">
-          <div class="certificate-preview">
-            <div class="pdf-fallback">
-              <span class="pdf-icon">📄</span>
-              <span>Completion Certificate</span>
-            </div>
-          </div>
-          <div class="certificate-info">
-            <span class="cert-badge">Online Course</span>
-            <h3>Course Completion Certificate</h3>
-            <p>Certificate of completion for an online technical training course in AI/ML or data analytics domain.</p>
-            <div class="certificate-actions">
-              <a class="btn btn-primary" href="assets/docs/Completion_Certificate_2.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
-              <a class="btn btn-secondary" href="assets/docs/Completion_Certificate_2.pdf" download="Adarsh_Dhanre_Completion_Certificate_2.pdf">Download</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Certificate 7 -->
-        <article class="certificate-card reveal">
-          <div class="certificate-preview">
-            <div class="pdf-fallback">
-              <span class="pdf-icon">📄</span>
-              <span>Certificate</span>
-            </div>
-          </div>
-          <div class="certificate-info">
-            <span class="cert-badge">Certification</span>
-            <h3>Professional Certificate</h3>
-            <p>Professional certification validating technical competency in relevant domain skills.</p>
-            <div class="certificate-actions">
-              <a class="btn btn-primary" href="assets/docs/Certificate_1.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
-              <a class="btn btn-secondary" href="assets/docs/Certificate_1.pdf" download="Adarsh_Dhanre_Certificate_1.pdf">Download</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Certificate 8 -->
-        <article class="certificate-card reveal">
-          <div class="certificate-preview">
-            <div class="pdf-fallback">
-              <span class="pdf-icon">📄</span>
-              <span>Certificate</span>
-            </div>
-          </div>
-          <div class="certificate-info">
-            <span class="cert-badge">Certification</span>
-            <h3>Professional Certificate</h3>
-            <p>Professional certification validating technical competency in relevant domain skills.</p>
-            <div class="certificate-actions">
-              <a class="btn btn-primary" href="assets/docs/Certificate_2.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
-              <a class="btn btn-secondary" href="assets/docs/Certificate_2.pdf" download="Adarsh_Dhanre_Certificate_2.pdf">Download</a>
-            </div>
-          </div>
-        </article>
-
+  <main>
+    <!-- ==============================================================================
+         HERO SECTION
+         ============================================================================== -->
+    <section class="section project-hero">
+      <div class="container section-head reveal">
+        <p class="eyebrow">Verified Credentials</p>
+        <h1>Certificates &amp; Achievements</h1>
+        <p>Industry-recognized certifications and professional credentials validating my competency in Data Analytics, AI/ML, and Software Engineering.</p>
+        <span class="cert-count-badge">📜 7 Verified Credentials</span>
       </div>
+    </section>
 
+    <!-- ==============================================================================
+         CERTIFICATES GRID
+         ============================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="certificates-grid">
+
+          <!-- Certificate 1: AICTE Internship Certificate -->
+          <article class="certificate-card reveal">
+            <div class="certificate-preview">
+              <div class="pdf-fallback">
+                <span class="pdf-icon">📄</span>
+                <span>AICTE Internship Certificate</span>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="cert-badge">Verified AICTE Credential</span>
+              <h3>Data Analytics Internship — Completion Certificate</h3>
+              <p>Awarded by <strong>AICTE, Edunet Foundation &amp; Vodafone Idea Foundation</strong> for successfully completing the Data Analytics Virtual Internship under the VOIS for Tech Program.</p>
+              <div class="certificate-actions">
+                <a class="btn btn-primary" href="assets/docs/Edunet_AICTE_Internship_Certificate.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+                <a class="btn btn-secondary" href="assets/docs/Edunet_AICTE_Internship_Certificate.pdf" download="Adarsh_Dhanre_AICTE_Internship_Certificate.pdf">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 2: IBM SkillsBuild Chatbot -->
+          <article class="certificate-card reveal">
+            <div class="certificate-preview">
+              <div class="pdf-fallback">
+                <span class="pdf-icon">📄</span>
+                <span>IBM SkillsBuild Certificate</span>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="cert-badge">IBM SkillsBuild</span>
+              <h3>Build Your Own Chatbot — IBM SkillsBuild</h3>
+              <p>Certificate of training from <strong>IBM SkillsBuild</strong> for completing conversational AI coursework, prompt handling, and IBM Watson Assistant foundations.</p>
+              <div class="certificate-actions">
+                <a class="btn btn-primary" href="assets/docs/IBM_SkillsBuild_Chatbot_Certificate.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+                <a class="btn btn-secondary" href="assets/docs/IBM_SkillsBuild_Chatbot_Certificate.pdf" download="Adarsh_Dhanre_IBM_Chatbot_Certificate.pdf">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 3: Deloitte Data Analytics -->
+          <article class="certificate-card reveal">
+            <div class="certificate-preview">
+              <div class="pdf-fallback">
+                <span class="pdf-icon">📄</span>
+                <span>Deloitte Certificate</span>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="cert-badge">Deloitte Australia</span>
+              <h3>Data Analytics &amp; Visualization — Deloitte (Forage)</h3>
+              <p>Virtual job simulation credential from <strong>Deloitte Australia</strong> covering enterprise exploratory data analysis, Tableau dashboard design, and executive presentation delivery.</p>
+              <div class="certificate-actions">
+                <a class="btn btn-primary" href="assets/docs/Deloitte_Data_Analytics_Certificate.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+                <a class="btn btn-secondary" href="assets/docs/Deloitte_Data_Analytics_Certificate.pdf" download="Adarsh_Dhanre_Deloitte_Certificate.pdf">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 4: Completion Certificate 1 -->
+          <article class="certificate-card reveal">
+            <div class="certificate-preview">
+              <div class="pdf-fallback">
+                <span class="pdf-icon">📄</span>
+                <span>Completion Certificate</span>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="cert-badge">Technical Training</span>
+              <h3>Course Completion Certificate</h3>
+              <p>Official course certificate validating foundational knowledge and hands-on laboratory exercises in programming and data science concepts.</p>
+              <div class="certificate-actions">
+                <a class="btn btn-primary" href="assets/docs/Completion_Certificate_1.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+                <a class="btn btn-secondary" href="assets/docs/Completion_Certificate_1.pdf" download="Adarsh_Dhanre_Completion_Certificate_1.pdf">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 5: Completion Certificate 2 -->
+          <article class="certificate-card reveal">
+            <div class="certificate-preview">
+              <div class="pdf-fallback">
+                <span class="pdf-icon">📄</span>
+                <span>Completion Certificate</span>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="cert-badge">Technical Training</span>
+              <h3>Course Completion Certificate</h3>
+              <p>Professional certificate of completion documenting technical mastery and practical module assessments in artificial intelligence workflows.</p>
+              <div class="certificate-actions">
+                <a class="btn btn-primary" href="assets/docs/Completion_Certificate_2.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+                <a class="btn btn-secondary" href="assets/docs/Completion_Certificate_2.pdf" download="Adarsh_Dhanre_Completion_Certificate_2.pdf">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 6: Professional Certificate 1 -->
+          <article class="certificate-card reveal">
+            <div class="certificate-preview">
+              <div class="pdf-fallback">
+                <span class="pdf-icon">📄</span>
+                <span>Professional Certificate</span>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="cert-badge">Specialization</span>
+              <h3>Professional Certificate</h3>
+              <p>Verified credential recognizing technical competencies, problem-solving skills, and academic accomplishment in specialized technology domains.</p>
+              <div class="certificate-actions">
+                <a class="btn btn-primary" href="assets/docs/Certificate_1.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+                <a class="btn btn-secondary" href="assets/docs/Certificate_1.pdf" download="Adarsh_Dhanre_Certificate_1.pdf">Download</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 7: Professional Certificate 2 -->
+          <article class="certificate-card reveal">
+            <div class="certificate-preview">
+              <div class="pdf-fallback">
+                <span class="pdf-icon">📄</span>
+                <span>Professional Certificate</span>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <span class="cert-badge">Specialization</span>
+              <h3>Professional Certificate</h3>
+              <p>Verified achievement certificate confirming rigorous training and completion of project requirements in technology engineering.</p>
+              <div class="certificate-actions">
+                <a class="btn btn-primary" href="assets/docs/Certificate_2.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+                <a class="btn btn-secondary" href="assets/docs/Certificate_2.pdf" download="Adarsh_Dhanre_Certificate_2.pdf">Download</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================================================
+       FOOTER
+       ============================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; 2026 Adarsh Prashant Dhanre. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="resume.html">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
     </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-wrap">
-    <p>© 2026 Adarsh Prashant Dhanre | AI & Machine Learning Portfolio</p>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="certificates.html">Certificates</a>
-      <a href="resume.html">Resume</a>
-    </div>
-  </div>
-</footer>
-
+  </footer>
 </body>
 </html>
-
